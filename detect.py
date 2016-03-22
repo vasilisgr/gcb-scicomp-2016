@@ -17,6 +17,8 @@ def detect_problems(filename):
         print 'Seems OK!'
         
 filenames = glob.glob('/Users/dcl9/gcbCourse/materials/cshl_rna_seq/*.bed*')
+
+# loops over all files
 for f in filenames:
     print f
     detect_problems(f)
